@@ -671,6 +671,23 @@ h3.my-profession
     width: 100%;
     display: block;
 }
+.portfolio .portfolio-item-inner .portfolio-img p
+{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 30px;
+    bottom: center;
+}
+
+/* ===== Projects =====*/
+  .portfolio-img img {
+    transition: 1s;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  .portfolio-img img:hover {
+    transform: scale(1.1);
+  }
 /* contact */
 .contact-title
 {
@@ -759,6 +776,7 @@ h3.my-profession
     height: 50px;
     padding: 0 50px;
 }
+
 @media (max-width:1199px)
 {
     .section .container
